@@ -1,6 +1,4 @@
-Oke, saya satukan semuanya jadi **satu code README lengkap** yang bisa langsung kamu pakai untuk `README.md` di GitHub repo-mu 👍
 
-```markdown
 # 🗑️ Aplikasi Flask untuk Klasifikasi Sampah Berbasis Model CNN
 
 Aplikasi web berbasis **Flask** untuk melakukan klasifikasi sampah menggunakan model **TensorFlow Lite (.tflite)**.  
@@ -8,19 +6,6 @@ Project ini dibuat untuk mendukung transparansi dan efektivitas pengelolaan samp
 
 ---
 
-## 📂 Struktur Project
-```
-
-.
-├── app.py                # Main Flask application
-├── model\_fix.tflite      # Trained CNN model in TensorFlow Lite format
-├── templates/
-│   └── index.html        # Web interface for uploading images
-├── static/               # (optional) CSS/JS/Images
-├── .venv/                # Virtual environment (tidak perlu di-push ke GitHub)
-└── Trash.ipynb           # Notebook for training and testing the model
-
-````
 
 ---
 
@@ -74,15 +59,6 @@ http://127.0.0.1:5000
 * Model CNN TensorFlow Lite memprediksi jenis sampah.
 * Hasil klasifikasi ditampilkan langsung di halaman web.
 
----
-
-## 📸 Contoh Tampilan
-
-Jika ingin menambahkan screenshot hasil aplikasi, simpan gambar di folder `static/` lalu tambahkan ke README:
-
-```markdown
-![Preview](static/preview.png)
-```
 
 ---
 
@@ -93,14 +69,3 @@ Jika ingin menambahkan screenshot hasil aplikasi, simpan gambar di folder `stati
 * Model yang dipakai di web adalah `model_fix.tflite`.
 
 ---
-
-## 📜 Lisensi
-
-MIT License © 2025 Ezra Kristanto Nahumury
-
-```
-
----
-
-Mau saya tambahkan juga **badges GitHub** (Python, Flask, TensorFlow, License) di bagian atas biar tampilan README lebih profesional?
-```
